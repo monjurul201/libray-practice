@@ -61,7 +61,6 @@ background:#232a34;
 
 
 export const BannerContent = styled.div`
-
  z-index:3;
  max-width:1200px;
  position:absolute;

@@ -6,9 +6,9 @@ import styled from "styled-components";
 
 
 export const Navbar =styled.nav `
-background:#000;
+background:${({scrollNav}) => (scrollNav) ? '#101522' : '#000'};
 height:80px;
-/* margin-top:-80px; */
+margin-top:-80px;
 justify-content:center;
 align-items:center;
 font-size:1rem;
@@ -76,7 +76,7 @@ height:100%;
 cursor: pointer;
 
 &.active{
-    border-bottom:3px solid #01bf71;
+    border-bottom:3px solid hotpink;
 }
 `
 export const NavBtn =styled.nav`
