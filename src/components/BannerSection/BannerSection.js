@@ -22,7 +22,7 @@ const onHover = () => {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, rerum consequuntur consectetur nostrum sit cupiditate.
               </BannerP>
               <BannerBtnWrapper>
-                  <Button  to='signup' onMouseEnter={onHover} onMouseLeave={hover}
+                  <Button  to='/' onMouseEnter={onHover} onMouseLeave={hover}
                   primary='true'
                   dark='true'>
                       Get Started {hover ? <ArrowForward/> : < ArrowRight/>}
